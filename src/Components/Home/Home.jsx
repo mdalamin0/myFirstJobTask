@@ -13,7 +13,7 @@ const Home = () => {
     return (
         <div className="my-5">
             <h3 className="my-4 text-center">Our Available Movie: {loadedMovies.length}</h3>
-            <div className="row row-cols-1 row-cols-md-3 g-4">
+            <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 {
                     loadedMovies.map(movie => <DataCard
                         key={movie.show.id}
